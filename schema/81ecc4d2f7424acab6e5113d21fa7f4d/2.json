@@ -1,0 +1,1203 @@
+{
+  "advancedEditingCapabilities": {
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsApplyEditsbyUploadID": true,
+    "supportsAsyncApplyEdits": true,
+    "supportsMaxTranslations": 10,
+    "supportsReturnEditResults": true,
+    "supportsTranslation": false
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsAsync": true,
+    "supportsLinearRegression": true,
+    "supportsPercentileAnalytic": true,
+    "supportsTrendlineRegression": true
+  },
+  "advancedQueryCapabilities": {
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsOperator": true,
+      "supportsSearchOperator": true,
+      "supportsStopWords": true
+    },
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsAdvancedQueryRelated": true,
+    "supportsAggIds": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsCountDistinct": true,
+    "supportsCurrentUserQueries": true,
+    "supportsDefaultSR": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsDistinct": true,
+    "supportsFullTextSearch": true,
+    "supportsHavingClause": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsLod": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsOrderBy": true,
+    "supportsOutDistance": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsPercentileStatistics": true,
+    "supportsQueryAnalytic": true,
+    "supportsQueryBins": true,
+    "supportsQueryPivot": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithCacheHint": true,
+    "supportsQueryWithCollation": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsQueryWithDistance": true,
+    "supportsQueryWithLodSR": false,
+    "supportsQueryWithResultType": true,
+    "supportsReturningGeometryCentroid": true,
+    "supportsReturningGeometryEnvelope": true,
+    "supportsReturningGeometryProperties": true,
+    "supportsReturningQueryExtent": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportsSqlExpression": true,
+    "supportsStatistics": true,
+    "supportsTimeRelation": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsTranslations": false,
+    "supportsTrueCurve": true
+  },
+  "allowGeometryUpdates": true,
+  "allowTrueCurvesUpdates": true,
+  "capabilities": "Create,Delete,Query,Update,Editing",
+  "collation": {
+    "accentSensitive": true,
+    "caseSensitive": false,
+    "locale": "neutral"
+  },
+  "copyrightText": "",
+  "currentVersion": 12,
+  "dateFieldsTimeReference": {
+    "respectsDaylightSaving": false,
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC"
+  },
+  "defaultVisibility": true,
+  "description": "Crops",
+  "displayField": "OBJECTID",
+  "drawingInfo": {
+    "labelingInfo": null,
+    "renderer": {
+      "authoringInfo": {
+        "colorRamp": {
+          "colorRamps": [
+            {
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                179,
+                252,
+                210,
+                255
+              ],
+              "toColor": [
+                179,
+                252,
+                210,
+                255
+              ],
+              "type": "algorithmic"
+            },
+            {
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                251,
+                179,
+                252,
+                255
+              ],
+              "toColor": [
+                251,
+                179,
+                252,
+                255
+              ],
+              "type": "algorithmic"
+            },
+            {
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                197,
+                184,
+                255
+              ],
+              "toColor": [
+                252,
+                197,
+                184,
+                255
+              ],
+              "type": "algorithmic"
+            },
+            {
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                184,
+                223,
+                252,
+                255
+              ],
+              "toColor": [
+                184,
+                223,
+                252,
+                255
+              ],
+              "type": "algorithmic"
+            },
+            {
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                244,
+                179,
+                255
+              ],
+              "toColor": [
+                252,
+                244,
+                179,
+                255
+              ],
+              "type": "algorithmic"
+            },
+            {
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                179,
+                182,
+                252,
+                255
+              ],
+              "toColor": [
+                179,
+                182,
+                252,
+                255
+              ],
+              "type": "algorithmic"
+            },
+            {
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                210,
+                245,
+                255
+              ],
+              "toColor": [
+                252,
+                210,
+                245,
+                255
+              ],
+              "type": "algorithmic"
+            },
+            {
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                204,
+                252,
+                252,
+                255
+              ],
+              "toColor": [
+                204,
+                252,
+                252,
+                255
+              ],
+              "type": "algorithmic"
+            },
+            {
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                235,
+                215,
+                255
+              ],
+              "toColor": [
+                252,
+                235,
+                215,
+                255
+              ],
+              "type": "algorithmic"
+            },
+            {
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                230,
+                252,
+                212,
+                255
+              ],
+              "toColor": [
+                230,
+                252,
+                212,
+                255
+              ],
+              "type": "algorithmic"
+            },
+            {
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                221,
+                197,
+                252,
+                255
+              ],
+              "toColor": [
+                221,
+                197,
+                252,
+                255
+              ],
+              "type": "algorithmic"
+            },
+            {
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                252,
+                179,
+                189,
+                255
+              ],
+              "toColor": [
+                252,
+                179,
+                189,
+                255
+              ],
+              "type": "algorithmic"
+            },
+            {
+              "algorithm": "esriCIELabAlgorithm",
+              "fromColor": [
+                185,
+                252,
+                182,
+                255
+              ],
+              "toColor": [
+                185,
+                252,
+                182,
+                255
+              ],
+              "type": "algorithmic"
+            }
+          ],
+          "type": "multipart"
+        }
+      },
+      "defaultLabel": "<all other values>",
+      "defaultSymbol": {
+        "color": [
+          130,
+          130,
+          130,
+          255
+        ],
+        "outline": {
+          "color": [
+            110,
+            110,
+            110,
+            255
+          ],
+          "style": "esriSLSSolid",
+          "type": "esriSLS",
+          "width": 0.7
+        },
+        "style": "esriSFSSolid",
+        "type": "esriSFS"
+      },
+      "field1": "Type",
+      "fieldDelimiter": ",",
+      "type": "uniqueValue",
+      "uniqueValueInfos": [
+        {
+          "label": "Barley",
+          "symbol": {
+            "color": [
+              160,
+              219,
+              213,
+              255
+            ],
+            "outline": {
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "style": "esriSLSSolid",
+              "type": "esriSLS",
+              "width": 0.7
+            },
+            "style": "esriSFSSolid",
+            "type": "esriSFS"
+          },
+          "value": "BAR"
+        },
+        {
+          "label": "Grass",
+          "symbol": {
+            "color": [
+              141,
+              194,
+              78,
+              255
+            ],
+            "outline": {
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "style": "esriSLSSolid",
+              "type": "esriSLS",
+              "width": 0.7
+            },
+            "style": "esriSFSSolid",
+            "type": "esriSFS"
+          },
+          "value": "GRASS"
+        },
+        {
+          "label": "None",
+          "symbol": {
+            "color": [
+              178,
+              178,
+              178,
+              255
+            ],
+            "outline": {
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "style": "esriSLSSolid",
+              "type": "esriSLS",
+              "width": 0.7
+            },
+            "style": "esriSFSBackwardDiagonal",
+            "type": "esriSFS"
+          },
+          "value": "NONE"
+        },
+        {
+          "label": "Potatoes",
+          "symbol": {
+            "color": [
+              106,
+              138,
+              98,
+              255
+            ],
+            "outline": {
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "style": "esriSLSSolid",
+              "type": "esriSLS",
+              "width": 0.7
+            },
+            "style": "esriSFSSolid",
+            "type": "esriSFS"
+          },
+          "value": "POTATO"
+        },
+        {
+          "label": "Sugar Beet",
+          "symbol": {
+            "color": [
+              148,
+              128,
+              68,
+              255
+            ],
+            "outline": {
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "style": "esriSLSSolid",
+              "type": "esriSLS",
+              "width": 0.7
+            },
+            "style": "esriSFSSolid",
+            "type": "esriSFS"
+          },
+          "value": "SUG"
+        },
+        {
+          "label": "Undesignated",
+          "symbol": {
+            "color": [
+              189,
+              192,
+              252,
+              255
+            ],
+            "outline": {
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "style": "esriSLSSolid",
+              "type": "esriSLS",
+              "width": 0.7
+            },
+            "style": "esriSFSBackwardDiagonal",
+            "type": "esriSFS"
+          },
+          "value": "UNDESG"
+        },
+        {
+          "label": "Wheat",
+          "symbol": {
+            "color": [
+              115,
+              112,
+              92,
+              255
+            ],
+            "outline": {
+              "color": [
+                110,
+                110,
+                110,
+                255
+              ],
+              "style": "esriSLSSolid",
+              "type": "esriSLS",
+              "width": 0.7
+            },
+            "style": "esriSFSSolid",
+            "type": "esriSFS"
+          },
+          "value": "WHE"
+        }
+      ]
+    },
+    "scaleSymbols": true,
+    "transparency": 0
+  },
+  "editingInfo": {
+    "dataLastEditDate": 1783070018632,
+    "lastEditDate": 1783070018726,
+    "schemaLastEditDate": 1783070018632
+  },
+  "enableNullGeometry": false,
+  "extent": {
+    "spatialReference": {
+      "latestWkid": 3857,
+      "wkid": 102100
+    },
+    "xmax": 20037507.84278825,
+    "xmin": -20037507.84278825,
+    "ymax": 30240971.45838615,
+    "ymin": -30240971.45838615
+  },
+  "fields": [
+    {
+      "alias": "OBJECTID",
+      "defaultValue": null,
+      "domain": null,
+      "editable": false,
+      "name": "OBJECTID",
+      "nullable": false,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeOID"
+    },
+    {
+      "alias": "Type",
+      "defaultValue": null,
+      "domain": {
+        "codedValues": [
+          {
+            "code": "BAR",
+            "name": "Barley"
+          },
+          {
+            "code": "WHE",
+            "name": "Wheat"
+          },
+          {
+            "code": "SUG",
+            "name": "Sugar Beet"
+          },
+          {
+            "code": "GRASS",
+            "name": "Grass"
+          },
+          {
+            "code": "POTATO",
+            "name": "Potatoes"
+          },
+          {
+            "code": "NONE",
+            "name": "None"
+          },
+          {
+            "code": "UNDESG",
+            "name": "Undesignated"
+          }
+        ],
+        "name": "crop_type",
+        "type": "codedValue"
+      },
+      "editable": true,
+      "length": 12,
+      "name": "Type",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "GlobalID",
+      "defaultValue": null,
+      "domain": null,
+      "editable": false,
+      "length": 38,
+      "name": "GlobalID",
+      "nullable": false,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeGlobalID"
+    },
+    {
+      "alias": "Date Created",
+      "defaultValue": -2209161600000,
+      "domain": null,
+      "editable": true,
+      "length": 8,
+      "name": "DateCreated",
+      "nullable": true,
+      "precision": 1,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeDate"
+    },
+    {
+      "alias": "Created By",
+      "defaultValue": null,
+      "domain": null,
+      "editable": true,
+      "length": 1000,
+      "name": "CreatedBy",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "Date Modified",
+      "defaultValue": -2209161600000,
+      "domain": null,
+      "editable": true,
+      "length": 8,
+      "name": "DateModified",
+      "nullable": true,
+      "precision": 1,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeDate"
+    },
+    {
+      "alias": "Modified By",
+      "defaultValue": null,
+      "domain": null,
+      "editable": true,
+      "length": 255,
+      "name": "ModifiedBy",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "Expected Yield",
+      "defaultValue": 0,
+      "domain": null,
+      "editable": true,
+      "name": "ExpectedYield",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "alias": "Usable Land in Hectares",
+      "defaultValue": 0,
+      "domain": null,
+      "editable": true,
+      "name": "UsableLand",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "alias": "Income Potential",
+      "defaultValue": 0,
+      "domain": null,
+      "editable": true,
+      "name": "IncomePotential",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "alias": "Percentage Damaged",
+      "defaultValue": 0,
+      "domain": null,
+      "editable": true,
+      "name": "DamagePercentage",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "alias": "Date Inspected",
+      "defaultValue": -2209161600000,
+      "domain": null,
+      "editable": true,
+      "length": 8,
+      "name": "DateInspected",
+      "nullable": true,
+      "precision": 1,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeDate"
+    },
+    {
+      "alias": "Inspected By",
+      "defaultValue": null,
+      "domain": null,
+      "editable": true,
+      "length": 255,
+      "name": "InspectedBy",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "Farmer",
+      "defaultValue": null,
+      "domain": null,
+      "editable": true,
+      "length": 255,
+      "name": "Owner",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "Comments",
+      "defaultValue": null,
+      "domain": null,
+      "editable": true,
+      "length": 2000,
+      "name": "Comments",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "Crop ID",
+      "defaultValue": null,
+      "domain": null,
+      "editable": true,
+      "length": 255,
+      "name": "CropID",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "Land ID",
+      "defaultValue": null,
+      "domain": null,
+      "editable": true,
+      "length": 255,
+      "name": "LandID",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "Shape__Area",
+      "defaultValue": null,
+      "domain": null,
+      "editable": false,
+      "name": "Shape__Area",
+      "nullable": true,
+      "sqlType": "sqlTypeDouble",
+      "type": "esriFieldTypeDouble"
+    },
+    {
+      "alias": "Shape__Length",
+      "defaultValue": null,
+      "domain": null,
+      "editable": false,
+      "name": "Shape__Length",
+      "nullable": true,
+      "sqlType": "sqlTypeDouble",
+      "type": "esriFieldTypeDouble"
+    }
+  ],
+  "geometryProperties": {
+    "shapeAreaFieldName": "Shape__Area",
+    "shapeLengthFieldName": "Shape__Length",
+    "units": "esriMeters"
+  },
+  "geometryType": "esriGeometryPolygon",
+  "globalIdField": "GlobalID",
+  "guidFormat": "",
+  "hasAttachments": false,
+  "hasContingentValuesDefinition": false,
+  "hasGeometryProperties": true,
+  "hasM": false,
+  "hasStaticData": false,
+  "hasZ": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "id": 2,
+  "indexes": [
+    {
+      "description": "",
+      "fields": "Shape__Area",
+      "indexType": "Attribute",
+      "isAscending": true,
+      "isUnique": false,
+      "name": "Shape__Area_Index"
+    },
+    {
+      "description": "",
+      "fields": "Shape__Length",
+      "indexType": "Attribute",
+      "isAscending": true,
+      "isUnique": false,
+      "name": "Shape__Length_Index"
+    },
+    {
+      "description": "Shape Index",
+      "fields": "Shape",
+      "indexType": "Spatial",
+      "isAscending": true,
+      "isUnique": false,
+      "name": "blah_WFL1_CROPS_Shape_sidx"
+    },
+    {
+      "description": "clustered, unique, primary key",
+      "fields": "OBJECTID",
+      "indexType": "Attribute",
+      "isAscending": true,
+      "isUnique": true,
+      "name": "PK__blah_WFL__F4B70D85064206EC"
+    }
+  ],
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "isDataVersioned": false,
+  "maxIdsCount": 400000,
+  "maxRecordCount": 2000,
+  "maxRecordCountFactor": 1,
+  "maxScale": 0,
+  "minScale": 0,
+  "name": "Crops",
+  "objectIdField": "OBJECTID",
+  "onlyAllowTrueCurveUpdatesByTrueCurveClients": false,
+  "preferredTimeReference": null,
+  "queryBinsCapabilities": {
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ],
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsClassificationBin": true,
+    "supportsDateBin": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsNormalization": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsSnapToData": true,
+    "supportsSplitBy": true,
+    "supportsStackBy": true
+  },
+  "relationships": [],
+  "serviceItemId": "81ecc4d2f7424acab6e5113d21fa7f4d",
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "standardMaxRecordCount": 2000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedConvertFileFormats": "JSON,PBF,Parquet",
+  "supportedCurveTypes": [
+    "esriGeometryCircularArc"
+  ],
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel,parquet",
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "supportedSyncDataOptions": 260,
+  "supportedTrueCurvePbfFeatureEncodings": [
+    "esriCompressedShapeBuffer",
+    "esriDefault"
+  ],
+  "supportsASyncCalculate": true,
+  "supportsAdvancedQueries": true,
+  "supportsAppend": true,
+  "supportsApplyEditsWithGlobalIds": true,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsCalculate": true,
+  "supportsColumnStoreIndex": true,
+  "supportsContingentValues": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsEditingContingentValues": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsFieldGroups": true,
+  "supportsLayerOverrides": true,
+  "supportsMultiScaleGeometry": true,
+  "supportsQuantizationEditMode": true,
+  "supportsReturningQueryGeometry": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsTruncate": true,
+  "supportsValidateSql": true,
+  "templates": [],
+  "tileMaxRecordCount": 4000,
+  "trueCurveSupportMode": "OGC",
+  "type": "Feature Layer",
+  "typeIdField": "Type",
+  "types": [
+    {
+      "domains": {
+        "Type": {
+          "type": "inherited"
+        }
+      },
+      "id": "BAR",
+      "name": "BAR",
+      "templates": [
+        {
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "name": "Barley",
+          "prototype": {
+            "attributes": {
+              "Comments": null,
+              "CreatedBy": null,
+              "CropID": null,
+              "DamagePercentage": 0,
+              "DateCreated": -2209161600000,
+              "DateInspected": -2209161600000,
+              "DateModified": -2209161600000,
+              "ExpectedYield": 0,
+              "IncomePotential": 0,
+              "InspectedBy": null,
+              "LandID": null,
+              "ModifiedBy": null,
+              "Owner": null,
+              "Type": "BAR",
+              "UsableLand": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "domains": {
+        "Type": {
+          "type": "inherited"
+        }
+      },
+      "id": "GRASS",
+      "name": "GRASS",
+      "templates": [
+        {
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "name": "Grass",
+          "prototype": {
+            "attributes": {
+              "Comments": null,
+              "CreatedBy": null,
+              "CropID": null,
+              "DamagePercentage": 0,
+              "DateCreated": -2209161600000,
+              "DateInspected": -2209161600000,
+              "DateModified": -2209161600000,
+              "ExpectedYield": 0,
+              "IncomePotential": 0,
+              "InspectedBy": null,
+              "LandID": null,
+              "ModifiedBy": null,
+              "Owner": null,
+              "Type": "GRASS",
+              "UsableLand": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "domains": {
+        "Type": {
+          "type": "inherited"
+        }
+      },
+      "id": "NONE",
+      "name": "NONE",
+      "templates": [
+        {
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "name": "None",
+          "prototype": {
+            "attributes": {
+              "Comments": null,
+              "CreatedBy": null,
+              "CropID": null,
+              "DamagePercentage": 0,
+              "DateCreated": -2209161600000,
+              "DateInspected": -2209161600000,
+              "DateModified": -2209161600000,
+              "ExpectedYield": 0,
+              "IncomePotential": 0,
+              "InspectedBy": null,
+              "LandID": null,
+              "ModifiedBy": null,
+              "Owner": null,
+              "Type": "NONE",
+              "UsableLand": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "domains": {
+        "Type": {
+          "type": "inherited"
+        }
+      },
+      "id": "POTATO",
+      "name": "POTATO",
+      "templates": [
+        {
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "name": "Potatoes",
+          "prototype": {
+            "attributes": {
+              "Comments": null,
+              "CreatedBy": null,
+              "CropID": null,
+              "DamagePercentage": 0,
+              "DateCreated": -2209161600000,
+              "DateInspected": -2209161600000,
+              "DateModified": -2209161600000,
+              "ExpectedYield": 0,
+              "IncomePotential": 0,
+              "InspectedBy": null,
+              "LandID": null,
+              "ModifiedBy": null,
+              "Owner": null,
+              "Type": "POTATO",
+              "UsableLand": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "domains": {
+        "Type": {
+          "type": "inherited"
+        }
+      },
+      "id": "SUG",
+      "name": "SUG",
+      "templates": [
+        {
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "name": "Sugar Beet",
+          "prototype": {
+            "attributes": {
+              "Comments": null,
+              "CreatedBy": null,
+              "CropID": null,
+              "DamagePercentage": 0,
+              "DateCreated": -2209161600000,
+              "DateInspected": -2209161600000,
+              "DateModified": -2209161600000,
+              "ExpectedYield": 0,
+              "IncomePotential": 0,
+              "InspectedBy": null,
+              "LandID": null,
+              "ModifiedBy": null,
+              "Owner": null,
+              "Type": "SUG",
+              "UsableLand": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "domains": {
+        "Type": {
+          "type": "inherited"
+        }
+      },
+      "id": "UNDESG",
+      "name": "UNDESG",
+      "templates": [
+        {
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "name": "Undesignated",
+          "prototype": {
+            "attributes": {
+              "Comments": null,
+              "CreatedBy": null,
+              "CropID": null,
+              "DamagePercentage": 0,
+              "DateCreated": -2209161600000,
+              "DateInspected": -2209161600000,
+              "DateModified": -2209161600000,
+              "ExpectedYield": 0,
+              "IncomePotential": 0,
+              "InspectedBy": null,
+              "LandID": null,
+              "ModifiedBy": null,
+              "Owner": null,
+              "Type": "UNDESG",
+              "UsableLand": 0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "domains": {
+        "Type": {
+          "type": "inherited"
+        }
+      },
+      "id": "WHE",
+      "name": "WHE",
+      "templates": [
+        {
+          "description": "",
+          "drawingTool": "esriFeatureEditToolPolygon",
+          "name": "Wheat",
+          "prototype": {
+            "attributes": {
+              "Comments": null,
+              "CreatedBy": null,
+              "CropID": null,
+              "DamagePercentage": 0,
+              "DateCreated": -2209161600000,
+              "DateInspected": -2209161600000,
+              "DateModified": -2209161600000,
+              "ExpectedYield": 0,
+              "IncomePotential": 0,
+              "InspectedBy": null,
+              "LandID": null,
+              "ModifiedBy": null,
+              "Owner": null,
+              "Type": "WHE",
+              "UsableLand": 0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "uniqueIdField": {
+    "isSystemMaintained": true,
+    "name": "OBJECTID"
+  },
+  "useStandardizedQueries": true
+}

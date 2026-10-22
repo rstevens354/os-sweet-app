@@ -1,0 +1,7 @@
+{
+  "field": "CreatedBy",
+  "name": "Calculate [CreatedBy]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "fieldexpression"
+}

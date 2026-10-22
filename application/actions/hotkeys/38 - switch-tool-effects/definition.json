@@ -1,0 +1,7 @@
+{
+  "combination": "ctrl+g",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "switch-tool-effects",
+  "systemaction": "switch-tool-effects"
+}

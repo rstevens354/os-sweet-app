@@ -1,0 +1,7 @@
+{
+  "combination": "shift+2",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "switch-tool-add",
+  "systemaction": "switch-tool-add"
+}

@@ -1,0 +1,7 @@
+{
+  "combination": "Ctrl+c",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "run-copy",
+  "systemaction": "run-copy"
+}

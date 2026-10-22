@@ -1,0 +1,7 @@
+{
+  "combination": "insert",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "switch-tool-add",
+  "systemaction": "switch-tool-add"
+}

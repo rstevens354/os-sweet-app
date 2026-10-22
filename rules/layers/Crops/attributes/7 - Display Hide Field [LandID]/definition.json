@@ -1,0 +1,7 @@
+{
+  "field": "LandID",
+  "name": "Display Hide Field [LandID]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "hidefield"
+}

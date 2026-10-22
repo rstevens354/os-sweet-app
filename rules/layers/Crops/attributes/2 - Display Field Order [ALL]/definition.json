@@ -1,0 +1,28 @@
+{
+  "field": "[ALL]",
+  "field_order": [
+    "OBJECTID",
+    "GlobalID",
+    "Type",
+    "ExpectedYield",
+    "IncomePotential",
+    "UsableLand",
+    "DamagePercentage",
+    "Comments",
+    "Owner",
+    "DateCreated",
+    "CreatedBy",
+    "DateModified",
+    "ModifiedBy",
+    "DateInspected",
+    "InspectedBy",
+    "CropID",
+    "LandID",
+    "Shape__Area",
+    "Shape__Length"
+  ],
+  "name": "Display Field Order [ALL]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "fieldorder"
+}

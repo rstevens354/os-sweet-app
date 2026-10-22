@@ -1,0 +1,7 @@
+{
+  "combination": "Shift+5",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "switch-tool-reshape",
+  "systemaction": "switch-tool-reshape"
+}

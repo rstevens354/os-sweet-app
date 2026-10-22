@@ -1,0 +1,7 @@
+{
+  "field": "DateModified",
+  "name": "Calculate [DateModified]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "fieldexpression"
+}

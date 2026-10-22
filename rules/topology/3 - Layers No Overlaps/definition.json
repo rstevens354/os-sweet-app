@@ -1,0 +1,27 @@
+{
+  "constraint_layers": [],
+  "crosses_allowed": "yes",
+  "ignoreInheritance": [],
+  "layers": [
+    {
+      "id": "d04b958c923f47a89e866c6285d62699",
+      "source": "webmap",
+      "subtype_code": null,
+      "title": "Buildings",
+      "type": "layer"
+    },
+    {
+      "id": "3d4ef70fba394dcfa12fa2837c1e383e",
+      "source": "webmap",
+      "subtype_code": null,
+      "title": "Trees",
+      "type": "layer"
+    }
+  ],
+  "name": "Layers No Overlaps",
+  "overlaps_allowed": "allowself",
+  "purpose": "",
+  "related": "no",
+  "subtype_constraint_layers": [],
+  "touches_allowed": "yes"
+}

@@ -1,0 +1,7 @@
+{
+  "combination": "Ctrl+m",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "run-tool-merge",
+  "systemaction": "run-tool-merge"
+}

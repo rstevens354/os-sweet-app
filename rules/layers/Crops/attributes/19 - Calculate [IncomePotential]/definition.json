@@ -1,0 +1,7 @@
+{
+  "field": "IncomePotential",
+  "name": "Calculate [IncomePotential]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "fieldexpression"
+}

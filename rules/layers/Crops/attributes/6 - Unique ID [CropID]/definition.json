@@ -1,0 +1,7 @@
+{
+  "field": "CropID",
+  "name": "Unique ID [CropID]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "generateuniqueid"
+}

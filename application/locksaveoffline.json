@@ -1,0 +1,10 @@
+{
+  "allow_offline_edits_outside_download_area": false,
+  "assignments": null,
+  "checkout_tools": false,
+  "locking": "standard",
+  "offline": false,
+  "only_edit_in_checkedout_areas": false,
+  "pointLockingZoneSize": 30,
+  "saving": "continuous"
+}

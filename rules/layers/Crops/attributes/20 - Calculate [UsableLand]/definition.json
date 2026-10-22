@@ -1,0 +1,7 @@
+{
+  "field": "UsableLand",
+  "name": "Calculate [UsableLand]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "fieldexpression"
+}

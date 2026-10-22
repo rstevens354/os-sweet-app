@@ -1,0 +1,7 @@
+{
+  "combination": "shift+3",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "switch-tool-subtract",
+  "systemaction": "switch-tool-subtract"
+}

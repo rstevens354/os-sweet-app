@@ -1,0 +1,72 @@
+{
+  "access": "private",
+  "accessInformation": null,
+  "advancedSettings": null,
+  "apiToken1ExpirationDate": -1,
+  "apiToken2ExpirationDate": -1,
+  "appCategories": [],
+  "avgRating": 0,
+  "banner": null,
+  "categories": [],
+  "classification": null,
+  "commentsEnabled": true,
+  "created": 1783070022000,
+  "culture": "en-us",
+  "description": null,
+  "documentation": null,
+  "extent": [
+    [
+      -0.6355,
+      51.7708
+    ],
+    [
+      -0.6237,
+      51.7763
+    ]
+  ],
+  "groupDesignations": null,
+  "guid": null,
+  "id": "73ac23887ed14b75b8aca3c377654261",
+  "industries": [],
+  "isOrgItem": true,
+  "itemControl": "admin",
+  "languages": [],
+  "largeThumbnail": null,
+  "lastViewed": 1792674000000,
+  "licenseInfo": null,
+  "listed": false,
+  "modified": 1783070024000,
+  "name": null,
+  "numComments": 0,
+  "numRatings": 0,
+  "numViews": 79,
+  "orgId": "iKsbAcqgVYmhKSqt",
+  "owner": "rstevens@esriuk.com_EsriUK",
+  "ownerFolder": null,
+  "ownerId": "381b8c68951741609a535b16accfa30e",
+  "properties": null,
+  "protected": false,
+  "proxyFilter": null,
+  "scoreCompleteness": 16,
+  "screenshots": [],
+  "size": 24909,
+  "snippet": null,
+  "spatialReference": null,
+  "subInfo": 0,
+  "tags": [
+    "Webmap"
+  ],
+  "thumbnail": null,
+  "title": "blah  Map",
+  "type": "Web Map",
+  "typeKeywords": [
+    "ArcGIS Online",
+    "Collector",
+    "Data Editing",
+    "Explorer Web Map",
+    "Map",
+    "Online Map",
+    "Web Map"
+  ],
+  "url": null
+}

@@ -1,0 +1,7 @@
+{
+  "combination": "d",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "reshape-delete-vertex",
+  "systemaction": "reshape-delete-vertex"
+}

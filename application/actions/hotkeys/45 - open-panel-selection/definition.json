@@ -1,0 +1,7 @@
+{
+  "combination": "Ctrl+1",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "open-panel-selection",
+  "systemaction": "open-panel-selection"
+}

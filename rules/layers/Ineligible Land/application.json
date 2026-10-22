@@ -1,0 +1,26 @@
+{
+  "can_delete": true,
+  "can_edit": true,
+  "elevation_info": {
+    "mode": "on-the-ground",
+    "offset": 0
+  },
+  "exclude_related_tables": [],
+  "filter": "",
+  "include_in_legend": true,
+  "include_in_selection": true,
+  "include_in_snapping": true,
+  "legend_display_mode": "standard",
+  "legend_subtype_settings": null,
+  "level_default_3d_display": false,
+  "level_facility_allowoutside": false,
+  "level_facility_field": "",
+  "level_level_field": "",
+  "mode": "standard",
+  "offline_download_mode": "default",
+  "passive": false,
+  "read_attribute_calculation_rules": false,
+  "read_attribute_constraint_rules": false,
+  "read_contingent_domain_rules": true,
+  "related_table_order": []
+}

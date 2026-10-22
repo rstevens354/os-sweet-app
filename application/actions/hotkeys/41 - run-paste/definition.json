@@ -1,0 +1,7 @@
+{
+  "combination": "Ctrl+v",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "run-paste",
+  "systemaction": "run-paste"
+}

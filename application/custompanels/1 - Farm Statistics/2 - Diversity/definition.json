@@ -1,0 +1,45 @@
+{
+  "availableoffline": true,
+  "definition": {
+    "chart": {
+      "inputs": {
+        "color_scheme": "",
+        "datasets": [
+          {
+            "data": "LandAmount",
+            "fill_color": "rgba(151,187,205,0.5)",
+            "label": "Hectares",
+            "stroke_color": "rgba(151,187,205,0.8)"
+          }
+        ],
+        "label": "Type"
+      }
+    },
+    "description": "",
+    "execution": "",
+    "icon": "",
+    "style": "",
+    "tablefields": null
+  },
+  "id": "fa7344a0-3fbc-5d35-856d-63200761dd78",
+  "nodata": {
+    "display": "hidepanel",
+    "message": ""
+  },
+  "title": "Diversity",
+  "type": "bar",
+  "watchLayers": [
+    {
+      "id": "397ec125fdcb45f990ddea12332bd95e",
+      "source": "webmap",
+      "title": "Crops",
+      "type": "layer"
+    },
+    {
+      "id": "6cdf82d391aa4a98b10c56ad8c410abe",
+      "source": "webmap",
+      "title": "Ineligible Land",
+      "type": "layer"
+    }
+  ]
+}

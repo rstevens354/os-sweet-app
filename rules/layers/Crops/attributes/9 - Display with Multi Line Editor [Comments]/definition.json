@@ -1,0 +1,7 @@
+{
+  "field": "Comments",
+  "name": "Display with Multi Line Editor [Comments]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "usemultilineeditor"
+}

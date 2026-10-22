@@ -1,0 +1,7 @@
+{
+  "combination": "backspace",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "run-tool-delete",
+  "systemaction": "run-tool-delete"
+}

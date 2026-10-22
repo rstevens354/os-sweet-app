@@ -1,0 +1,7 @@
+{
+  "combination": "del",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "switch-tool-subtract",
+  "systemaction": "switch-tool-subtract"
+}

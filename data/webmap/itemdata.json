@@ -1,0 +1,2195 @@
+{
+  "applicationProperties": {
+    "viewing": {
+      "basemapGallery": {
+        "enabled": true
+      },
+      "measure": {
+        "enabled": true
+      },
+      "routing": {
+        "enabled": true
+      }
+    }
+  },
+  "authoringApp": "WebMapViewer",
+  "authoringAppVersion": "7.2",
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "a8568d36a37b4259b7bb41460d66ac20",
+        "layerType": "ArcGISTiledMapServiceLayer",
+        "opacity": 1,
+        "title": "World Imagery",
+        "url": "https://services.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer",
+        "visibility": true
+      }
+    ],
+    "title": "World Imagery"
+  },
+  "operationalLayers": [
+    {
+      "id": "d04b958c923f47a89e866c6285d62699",
+      "itemId": "81ecc4d2f7424acab6e5113d21fa7f4d",
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "symbol": {
+              "color": [
+                229,
+                230,
+                230,
+                255
+              ],
+              "outline": {
+                "color": [
+                  205,
+                  206,
+                  206,
+                  255
+                ],
+                "style": "esriSLSSolid",
+                "type": "esriSLS",
+                "width": 0.4
+              },
+              "style": "esriSFSSolid",
+              "type": "esriSFS"
+            },
+            "type": "simple"
+          },
+          "scaleSymbols": true
+        },
+        "elevationInfo": {
+          "featureExpression": {
+            "value": 0
+          },
+          "mode": "relativeToGround"
+        },
+        "geometryType": "esriGeometryPolygon",
+        "objectIdField": "OBJECTID",
+        "templates": [
+          {
+            "drawingTool": "esriFeatureEditToolPolygon",
+            "name": "Buildings",
+            "prototype": {
+              "attributes": {
+                "DateCreated": -2209161600000,
+                "DateModified": -2209161600000
+              }
+            }
+          }
+        ]
+      },
+      "layerType": "ArcGISFeatureLayer",
+      "opacity": 1,
+      "popupInfo": {
+        "expressionInfos": [],
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "isEditable": false,
+            "label": "OBJECTID",
+            "visible": true
+          },
+          {
+            "fieldName": "Type",
+            "isEditable": true,
+            "label": "Type",
+            "visible": true
+          },
+          {
+            "fieldName": "Reference",
+            "isEditable": true,
+            "label": "Reference",
+            "visible": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "isEditable": false,
+            "label": "GlobalID",
+            "visible": true
+          },
+          {
+            "fieldName": "Comments",
+            "isEditable": true,
+            "label": "Comments",
+            "visible": true
+          },
+          {
+            "fieldName": "Owner",
+            "isEditable": true,
+            "label": "Farmer",
+            "visible": true
+          },
+          {
+            "fieldName": "BuildingID",
+            "isEditable": true,
+            "label": "Building ID",
+            "visible": true
+          },
+          {
+            "fieldName": "DateCreated",
+            "isEditable": true,
+            "label": "Date Created",
+            "visible": true
+          },
+          {
+            "fieldName": "CreatedBy",
+            "isEditable": true,
+            "label": "Created By",
+            "visible": true
+          },
+          {
+            "fieldName": "DateModified",
+            "isEditable": true,
+            "label": "Date Modified",
+            "visible": true
+          },
+          {
+            "fieldName": "ModifiedBy",
+            "isEditable": true,
+            "label": "Modified By",
+            "visible": true
+          },
+          {
+            "fieldName": "Shape__Area",
+            "isEditable": false,
+            "label": "Shape__Area",
+            "visible": true
+          },
+          {
+            "fieldName": "Shape__Length",
+            "isEditable": false,
+            "label": "Shape__Length",
+            "visible": true
+          }
+        ],
+        "mediaInfos": [],
+        "popupElements": [
+          {
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": true
+              },
+              {
+                "fieldName": "Type",
+                "isEditable": true,
+                "label": "Type",
+                "visible": true
+              },
+              {
+                "fieldName": "Reference",
+                "isEditable": true,
+                "label": "Reference",
+                "visible": true
+              },
+              {
+                "fieldName": "GlobalID",
+                "isEditable": false,
+                "label": "GlobalID",
+                "visible": true
+              },
+              {
+                "fieldName": "Comments",
+                "isEditable": true,
+                "label": "Comments",
+                "visible": true
+              },
+              {
+                "fieldName": "Owner",
+                "isEditable": true,
+                "label": "Farmer",
+                "visible": true
+              },
+              {
+                "fieldName": "BuildingID",
+                "isEditable": true,
+                "label": "Building ID",
+                "visible": true
+              },
+              {
+                "fieldName": "DateCreated",
+                "isEditable": true,
+                "label": "Date Created",
+                "visible": true
+              },
+              {
+                "fieldName": "CreatedBy",
+                "isEditable": true,
+                "label": "Created By",
+                "visible": true
+              },
+              {
+                "fieldName": "DateModified",
+                "isEditable": true,
+                "label": "Date Modified",
+                "visible": true
+              },
+              {
+                "fieldName": "ModifiedBy",
+                "isEditable": true,
+                "label": "Modified By",
+                "visible": true
+              },
+              {
+                "fieldName": "Shape__Area",
+                "isEditable": false,
+                "label": "Shape__Area",
+                "visible": true
+              },
+              {
+                "fieldName": "Shape__Length",
+                "isEditable": false,
+                "label": "Shape__Length",
+                "visible": true
+              }
+            ],
+            "type": "fields"
+          }
+        ],
+        "title": "{Shape_Length}"
+      },
+      "showLegend": true,
+      "title": "Buildings",
+      "url": "https://services1.arcgis.com/iKsbAcqgVYmhKSqt/arcgis/rest/services/blah_WFL1/FeatureServer/0",
+      "visibility": true
+    },
+    {
+      "id": "a21c10f22cd14f9c8c3c6c7709b36df5",
+      "itemId": "81ecc4d2f7424acab6e5113d21fa7f4d",
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "authoringInfo": {
+              "colorRamp": {
+                "colorRamps": [
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      252,
+                      250,
+                      210,
+                      255
+                    ],
+                    "toColor": [
+                      252,
+                      250,
+                      210,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      180,
+                      179,
+                      252,
+                      255
+                    ],
+                    "toColor": [
+                      180,
+                      179,
+                      252,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      252,
+                      189,
+                      205,
+                      255
+                    ],
+                    "toColor": [
+                      252,
+                      189,
+                      205,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      184,
+                      233,
+                      252,
+                      255
+                    ],
+                    "toColor": [
+                      184,
+                      233,
+                      252,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      182,
+                      252,
+                      221,
+                      255
+                    ],
+                    "toColor": [
+                      182,
+                      252,
+                      221,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      249,
+                      182,
+                      252,
+                      255
+                    ],
+                    "toColor": [
+                      249,
+                      182,
+                      252,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      246,
+                      215,
+                      252,
+                      255
+                    ],
+                    "toColor": [
+                      246,
+                      215,
+                      252,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      211,
+                      252,
+                      179,
+                      255
+                    ],
+                    "toColor": [
+                      211,
+                      252,
+                      179,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      252,
+                      225,
+                      215,
+                      255
+                    ],
+                    "toColor": [
+                      252,
+                      225,
+                      215,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      197,
+                      208,
+                      252,
+                      255
+                    ],
+                    "toColor": [
+                      197,
+                      208,
+                      252,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      252,
+                      195,
+                      179,
+                      255
+                    ],
+                    "toColor": [
+                      252,
+                      195,
+                      179,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      252,
+                      179,
+                      223,
+                      255
+                    ],
+                    "toColor": [
+                      252,
+                      179,
+                      223,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      184,
+                      252,
+                      248,
+                      255
+                    ],
+                    "toColor": [
+                      184,
+                      252,
+                      248,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  }
+                ],
+                "type": "multipart"
+              }
+            },
+            "defaultLabel": "",
+            "defaultSymbol": {
+              "color": [
+                130,
+                130,
+                130,
+                255
+              ],
+              "outline": {
+                "color": [
+                  110,
+                  110,
+                  110,
+                  255
+                ],
+                "style": "esriSLSSolid",
+                "type": "esriSLS",
+                "width": 0.7
+              },
+              "style": "esriSFSSolid",
+              "type": "esriSFS"
+            },
+            "field1": "Type",
+            "fieldDelimiter": ",",
+            "type": "uniqueValue",
+            "uniqueValueInfos": [
+              {
+                "label": "erosion",
+                "symbol": {
+                  "color": [
+                    255,
+                    0,
+                    0,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      255,
+                      0,
+                      0,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.7
+                  },
+                  "style": "esriSFSBackwardDiagonal",
+                  "type": "esriSFS"
+                },
+                "value": "erosion"
+              },
+              {
+                "label": "historic",
+                "symbol": {
+                  "color": [
+                    168,
+                    112,
+                    0,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      168,
+                      112,
+                      0,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.7
+                  },
+                  "style": "esriSFSBackwardDiagonal",
+                  "type": "esriSFS"
+                },
+                "value": "historic"
+              },
+              {
+                "label": "holding",
+                "symbol": {
+                  "color": [
+                    179,
+                    252,
+                    180,
+                    0
+                  ],
+                  "outline": {
+                    "color": [
+                      255,
+                      255,
+                      190,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 2
+                  },
+                  "style": "esriSFSSolid",
+                  "type": "esriSFS"
+                },
+                "value": "holding"
+              },
+              {
+                "label": "orchards",
+                "symbol": {
+                  "color": [
+                    56,
+                    168,
+                    0,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      56,
+                      168,
+                      0,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.7
+                  },
+                  "style": "esriSFSBackwardDiagonal",
+                  "type": "esriSFS"
+                },
+                "value": "orchards"
+              },
+              {
+                "label": "ponds",
+                "symbol": {
+                  "color": [
+                    0,
+                    169,
+                    230,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      110,
+                      110,
+                      110,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.7
+                  },
+                  "style": "esriSFSBackwardDiagonal",
+                  "type": "esriSFS"
+                },
+                "value": "ponds"
+              },
+              {
+                "label": "unimproved",
+                "symbol": {
+                  "color": [
+                    255,
+                    0,
+                    0,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      110,
+                      110,
+                      110,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.7
+                  },
+                  "style": "esriSFSSolid",
+                  "type": "esriSFS"
+                },
+                "value": "unimproved"
+              },
+              {
+                "label": "wetlands",
+                "symbol": {
+                  "color": [
+                    0,
+                    112,
+                    255,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      110,
+                      110,
+                      110,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.7
+                  },
+                  "style": "esriSFSBackwardDiagonal",
+                  "type": "esriSFS"
+                },
+                "value": "wetlands"
+              },
+              {
+                "label": "woodlands",
+                "symbol": {
+                  "color": [
+                    0,
+                    168,
+                    132,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      110,
+                      110,
+                      110,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.7
+                  },
+                  "style": "esriSFSSolid",
+                  "type": "esriSFS"
+                },
+                "value": "woodlands"
+              }
+            ]
+          },
+          "scaleSymbols": true
+        },
+        "elevationInfo": {
+          "featureExpression": {
+            "value": 0
+          },
+          "mode": "relativeToGround"
+        },
+        "geometryType": "esriGeometryPolygon",
+        "objectIdField": "OBJECTID",
+        "typeIdField": "Type",
+        "types": [
+          {
+            "domains": {},
+            "id": "erosion",
+            "name": "erosion",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "erosion",
+                "prototype": {
+                  "attributes": {
+                    "DateCreated": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "Type": "erosion"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "domains": {},
+            "id": "historic",
+            "name": "historic",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "historic",
+                "prototype": {
+                  "attributes": {
+                    "DateCreated": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "Type": "historic"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "domains": {},
+            "id": "holding",
+            "name": "holding",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "holding",
+                "prototype": {
+                  "attributes": {
+                    "DateCreated": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "Type": "holding"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "domains": {},
+            "id": "orchards",
+            "name": "orchards",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "orchards",
+                "prototype": {
+                  "attributes": {
+                    "DateCreated": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "Type": "orchards"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "domains": {},
+            "id": "ponds",
+            "name": "ponds",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "ponds",
+                "prototype": {
+                  "attributes": {
+                    "DateCreated": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "Type": "ponds"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "domains": {},
+            "id": "unimproved",
+            "name": "unimproved",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "unimproved",
+                "prototype": {
+                  "attributes": {
+                    "DateCreated": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "Type": "unimproved"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "domains": {},
+            "id": "wetlands",
+            "name": "wetlands",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "wetlands",
+                "prototype": {
+                  "attributes": {
+                    "DateCreated": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "Type": "wetlands"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "domains": {},
+            "id": "woodlands",
+            "name": "woodlands",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "woodlands",
+                "prototype": {
+                  "attributes": {
+                    "DateCreated": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "Type": "woodlands"
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "layerType": "ArcGISFeatureLayer",
+      "opacity": 0.5,
+      "popupInfo": {
+        "expressionInfos": [],
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "isEditable": false,
+            "label": "OBJECTID",
+            "visible": true
+          },
+          {
+            "fieldName": "Type",
+            "isEditable": true,
+            "label": "Type",
+            "visible": true
+          },
+          {
+            "fieldName": "Comments",
+            "isEditable": true,
+            "label": "Comments",
+            "visible": true
+          },
+          {
+            "fieldName": "Owner",
+            "isEditable": true,
+            "label": "Farmer",
+            "visible": true
+          },
+          {
+            "fieldName": "DateCreated",
+            "isEditable": true,
+            "label": "Date Created",
+            "visible": true
+          },
+          {
+            "fieldName": "CreatedBy",
+            "isEditable": true,
+            "label": "Created By",
+            "visible": true
+          },
+          {
+            "fieldName": "DateModified",
+            "isEditable": true,
+            "label": "Date Modified",
+            "visible": true
+          },
+          {
+            "fieldName": "ModifiedBy",
+            "isEditable": true,
+            "label": "Modified By",
+            "visible": true
+          },
+          {
+            "fieldName": "LandID",
+            "isEditable": true,
+            "label": "Land ID",
+            "visible": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "isEditable": false,
+            "label": "GlobalID",
+            "visible": true
+          },
+          {
+            "fieldName": "Shape__Area",
+            "isEditable": false,
+            "label": "Shape__Area",
+            "visible": true
+          },
+          {
+            "fieldName": "Shape__Length",
+            "isEditable": false,
+            "label": "Shape__Length",
+            "visible": true
+          }
+        ],
+        "mediaInfos": [],
+        "popupElements": [
+          {
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": true
+              },
+              {
+                "fieldName": "Type",
+                "isEditable": true,
+                "label": "Type",
+                "visible": true
+              },
+              {
+                "fieldName": "Comments",
+                "isEditable": true,
+                "label": "Comments",
+                "visible": true
+              },
+              {
+                "fieldName": "Owner",
+                "isEditable": true,
+                "label": "Farmer",
+                "visible": true
+              },
+              {
+                "fieldName": "DateCreated",
+                "isEditable": true,
+                "label": "Date Created",
+                "visible": true
+              },
+              {
+                "fieldName": "CreatedBy",
+                "isEditable": true,
+                "label": "Created By",
+                "visible": true
+              },
+              {
+                "fieldName": "DateModified",
+                "isEditable": true,
+                "label": "Date Modified",
+                "visible": true
+              },
+              {
+                "fieldName": "ModifiedBy",
+                "isEditable": true,
+                "label": "Modified By",
+                "visible": true
+              },
+              {
+                "fieldName": "LandID",
+                "isEditable": true,
+                "label": "Land ID",
+                "visible": true
+              },
+              {
+                "fieldName": "GlobalID",
+                "isEditable": false,
+                "label": "GlobalID",
+                "visible": true
+              },
+              {
+                "fieldName": "Shape__Area",
+                "isEditable": false,
+                "label": "Shape__Area",
+                "visible": true
+              },
+              {
+                "fieldName": "Shape__Length",
+                "isEditable": false,
+                "label": "Shape__Length",
+                "visible": true
+              }
+            ],
+            "type": "fields"
+          }
+        ],
+        "title": "{Shape_Length}"
+      },
+      "showLegend": true,
+      "title": "Land Use",
+      "url": "https://services1.arcgis.com/iKsbAcqgVYmhKSqt/arcgis/rest/services/blah_WFL1/FeatureServer/1",
+      "visibility": true
+    },
+    {
+      "id": "397ec125fdcb45f990ddea12332bd95e",
+      "itemId": "81ecc4d2f7424acab6e5113d21fa7f4d",
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "authoringInfo": {
+              "colorRamp": {
+                "colorRamps": [
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      252,
+                      250,
+                      210,
+                      255
+                    ],
+                    "toColor": [
+                      252,
+                      250,
+                      210,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      180,
+                      179,
+                      252,
+                      255
+                    ],
+                    "toColor": [
+                      180,
+                      179,
+                      252,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      252,
+                      189,
+                      205,
+                      255
+                    ],
+                    "toColor": [
+                      252,
+                      189,
+                      205,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      184,
+                      233,
+                      252,
+                      255
+                    ],
+                    "toColor": [
+                      184,
+                      233,
+                      252,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      182,
+                      252,
+                      221,
+                      255
+                    ],
+                    "toColor": [
+                      182,
+                      252,
+                      221,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      249,
+                      182,
+                      252,
+                      255
+                    ],
+                    "toColor": [
+                      249,
+                      182,
+                      252,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      246,
+                      215,
+                      252,
+                      255
+                    ],
+                    "toColor": [
+                      246,
+                      215,
+                      252,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      211,
+                      252,
+                      179,
+                      255
+                    ],
+                    "toColor": [
+                      211,
+                      252,
+                      179,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      252,
+                      225,
+                      215,
+                      255
+                    ],
+                    "toColor": [
+                      252,
+                      225,
+                      215,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      197,
+                      208,
+                      252,
+                      255
+                    ],
+                    "toColor": [
+                      197,
+                      208,
+                      252,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      252,
+                      195,
+                      179,
+                      255
+                    ],
+                    "toColor": [
+                      252,
+                      195,
+                      179,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      252,
+                      179,
+                      223,
+                      255
+                    ],
+                    "toColor": [
+                      252,
+                      179,
+                      223,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  },
+                  {
+                    "algorithm": "esriCIELabAlgorithm",
+                    "fromColor": [
+                      184,
+                      252,
+                      248,
+                      255
+                    ],
+                    "toColor": [
+                      184,
+                      252,
+                      248,
+                      255
+                    ],
+                    "type": "algorithmic"
+                  }
+                ],
+                "type": "multipart"
+              }
+            },
+            "defaultLabel": "",
+            "defaultSymbol": {
+              "color": [
+                130,
+                130,
+                130,
+                255
+              ],
+              "outline": {
+                "color": [
+                  110,
+                  110,
+                  110,
+                  255
+                ],
+                "style": "esriSLSSolid",
+                "type": "esriSLS",
+                "width": 0.7
+              },
+              "style": "esriSFSSolid",
+              "type": "esriSFS"
+            },
+            "field1": "Type",
+            "fieldDelimiter": ",",
+            "type": "uniqueValue",
+            "uniqueValueInfos": [
+              {
+                "label": "Barley",
+                "symbol": {
+                  "color": [
+                    160,
+                    219,
+                    213,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      110,
+                      110,
+                      110,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.7
+                  },
+                  "style": "esriSFSSolid",
+                  "type": "esriSFS"
+                },
+                "value": "BAR"
+              },
+              {
+                "label": "Grass",
+                "symbol": {
+                  "color": [
+                    141,
+                    194,
+                    78,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      110,
+                      110,
+                      110,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.7
+                  },
+                  "style": "esriSFSSolid",
+                  "type": "esriSFS"
+                },
+                "value": "GRASS"
+              },
+              {
+                "label": "None",
+                "symbol": {
+                  "color": [
+                    178,
+                    178,
+                    178,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      110,
+                      110,
+                      110,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.7
+                  },
+                  "style": "esriSFSBackwardDiagonal",
+                  "type": "esriSFS"
+                },
+                "value": "NONE"
+              },
+              {
+                "label": "Potatoes",
+                "symbol": {
+                  "color": [
+                    106,
+                    138,
+                    98,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      110,
+                      110,
+                      110,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.7
+                  },
+                  "style": "esriSFSSolid",
+                  "type": "esriSFS"
+                },
+                "value": "POTATO"
+              },
+              {
+                "label": "Sugar Beet",
+                "symbol": {
+                  "color": [
+                    148,
+                    128,
+                    68,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      110,
+                      110,
+                      110,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.7
+                  },
+                  "style": "esriSFSSolid",
+                  "type": "esriSFS"
+                },
+                "value": "SUG"
+              },
+              {
+                "label": "Undesignated",
+                "symbol": {
+                  "color": [
+                    189,
+                    192,
+                    252,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      110,
+                      110,
+                      110,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.7
+                  },
+                  "style": "esriSFSBackwardDiagonal",
+                  "type": "esriSFS"
+                },
+                "value": "UNDESG"
+              },
+              {
+                "label": "Wheat",
+                "symbol": {
+                  "color": [
+                    115,
+                    112,
+                    92,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      110,
+                      110,
+                      110,
+                      255
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.7
+                  },
+                  "style": "esriSFSSolid",
+                  "type": "esriSFS"
+                },
+                "value": "WHE"
+              }
+            ]
+          },
+          "scaleSymbols": true
+        },
+        "elevationInfo": {
+          "featureExpression": {
+            "value": 0
+          },
+          "mode": "relativeToGround"
+        },
+        "geometryType": "esriGeometryPolygon",
+        "objectIdField": "OBJECTID",
+        "typeIdField": "Type",
+        "types": [
+          {
+            "domains": {},
+            "id": "BAR",
+            "name": "Barley",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "Barley",
+                "prototype": {
+                  "attributes": {
+                    "DamagePercentage": 0,
+                    "DateCreated": -2209161600000,
+                    "DateInspected": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "ExpectedYield": 0,
+                    "IncomePotential": 0,
+                    "Type": "BAR",
+                    "UsableLand": 0
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "domains": {},
+            "id": "GRASS",
+            "name": "Grass",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "Grass",
+                "prototype": {
+                  "attributes": {
+                    "DamagePercentage": 0,
+                    "DateCreated": -2209161600000,
+                    "DateInspected": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "ExpectedYield": 0,
+                    "IncomePotential": 0,
+                    "Type": "GRASS",
+                    "UsableLand": 0
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "domains": {},
+            "id": "NONE",
+            "name": "None",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "None",
+                "prototype": {
+                  "attributes": {
+                    "DamagePercentage": 0,
+                    "DateCreated": -2209161600000,
+                    "DateInspected": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "ExpectedYield": 0,
+                    "IncomePotential": 0,
+                    "Type": "NONE",
+                    "UsableLand": 0
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "domains": {},
+            "id": "POTATO",
+            "name": "Potatoes",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "Potatoes",
+                "prototype": {
+                  "attributes": {
+                    "DamagePercentage": 0,
+                    "DateCreated": -2209161600000,
+                    "DateInspected": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "ExpectedYield": 0,
+                    "IncomePotential": 0,
+                    "Type": "POTATO",
+                    "UsableLand": 0
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "domains": {},
+            "id": "SUG",
+            "name": "Sugar Beet",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "Sugar Beet",
+                "prototype": {
+                  "attributes": {
+                    "DamagePercentage": 0,
+                    "DateCreated": -2209161600000,
+                    "DateInspected": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "ExpectedYield": 0,
+                    "IncomePotential": 0,
+                    "Type": "SUG",
+                    "UsableLand": 0
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "domains": {},
+            "id": "UNDESG",
+            "name": "Undesignated",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "Undesignated",
+                "prototype": {
+                  "attributes": {
+                    "DamagePercentage": 0,
+                    "DateCreated": -2209161600000,
+                    "DateInspected": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "ExpectedYield": 0,
+                    "IncomePotential": 0,
+                    "Type": "UNDESG",
+                    "UsableLand": 0
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "domains": {},
+            "id": "WHE",
+            "name": "Wheat",
+            "templates": [
+              {
+                "drawingTool": "esriFeatureEditToolPolygon",
+                "name": "Wheat",
+                "prototype": {
+                  "attributes": {
+                    "DamagePercentage": 0,
+                    "DateCreated": -2209161600000,
+                    "DateInspected": -2209161600000,
+                    "DateModified": -2209161600000,
+                    "ExpectedYield": 0,
+                    "IncomePotential": 0,
+                    "Type": "WHE",
+                    "UsableLand": 0
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "layerType": "ArcGISFeatureLayer",
+      "opacity": 0.75,
+      "popupInfo": {
+        "expressionInfos": [],
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "isEditable": false,
+            "label": "OBJECTID",
+            "visible": true
+          },
+          {
+            "fieldName": "Type",
+            "isEditable": true,
+            "label": "Type",
+            "visible": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "isEditable": false,
+            "label": "GlobalID",
+            "visible": true
+          },
+          {
+            "fieldName": "DateCreated",
+            "isEditable": true,
+            "label": "Date Created",
+            "visible": true
+          },
+          {
+            "fieldName": "CreatedBy",
+            "isEditable": true,
+            "label": "Created By",
+            "visible": true
+          },
+          {
+            "fieldName": "DateModified",
+            "isEditable": true,
+            "label": "Date Modified",
+            "visible": true
+          },
+          {
+            "fieldName": "ModifiedBy",
+            "isEditable": true,
+            "label": "Modified By",
+            "visible": true
+          },
+          {
+            "fieldName": "ExpectedYield",
+            "isEditable": true,
+            "label": "Expected Yield",
+            "visible": true
+          },
+          {
+            "fieldName": "UsableLand",
+            "isEditable": true,
+            "label": "Usable Land in Hectares",
+            "visible": true
+          },
+          {
+            "fieldName": "IncomePotential",
+            "isEditable": true,
+            "label": "Income Potential",
+            "visible": true
+          },
+          {
+            "fieldName": "DamagePercentage",
+            "isEditable": true,
+            "label": "Percentage Damaged",
+            "visible": true
+          },
+          {
+            "fieldName": "DateInspected",
+            "isEditable": true,
+            "label": "Date Inspected",
+            "visible": true
+          },
+          {
+            "fieldName": "InspectedBy",
+            "isEditable": true,
+            "label": "Inspected By",
+            "visible": true
+          },
+          {
+            "fieldName": "Owner",
+            "isEditable": true,
+            "label": "Farmer",
+            "visible": true
+          },
+          {
+            "fieldName": "Comments",
+            "isEditable": true,
+            "label": "Comments",
+            "visible": true
+          },
+          {
+            "fieldName": "CropID",
+            "isEditable": true,
+            "label": "Crop ID",
+            "visible": true
+          },
+          {
+            "fieldName": "LandID",
+            "isEditable": true,
+            "label": "Land ID",
+            "visible": true
+          },
+          {
+            "fieldName": "Shape__Area",
+            "isEditable": false,
+            "label": "Shape__Area",
+            "visible": true
+          },
+          {
+            "fieldName": "Shape__Length",
+            "isEditable": false,
+            "label": "Shape__Length",
+            "visible": true
+          }
+        ],
+        "mediaInfos": [],
+        "popupElements": [
+          {
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": true
+              },
+              {
+                "fieldName": "Type",
+                "isEditable": true,
+                "label": "Type",
+                "visible": true
+              },
+              {
+                "fieldName": "GlobalID",
+                "isEditable": false,
+                "label": "GlobalID",
+                "visible": true
+              },
+              {
+                "fieldName": "DateCreated",
+                "isEditable": true,
+                "label": "Date Created",
+                "visible": true
+              },
+              {
+                "fieldName": "CreatedBy",
+                "isEditable": true,
+                "label": "Created By",
+                "visible": true
+              },
+              {
+                "fieldName": "DateModified",
+                "isEditable": true,
+                "label": "Date Modified",
+                "visible": true
+              },
+              {
+                "fieldName": "ModifiedBy",
+                "isEditable": true,
+                "label": "Modified By",
+                "visible": true
+              },
+              {
+                "fieldName": "ExpectedYield",
+                "isEditable": true,
+                "label": "Expected Yield",
+                "visible": true
+              },
+              {
+                "fieldName": "UsableLand",
+                "isEditable": true,
+                "label": "Usable Land in Hectares",
+                "visible": true
+              },
+              {
+                "fieldName": "IncomePotential",
+                "isEditable": true,
+                "label": "Income Potential",
+                "visible": true
+              },
+              {
+                "fieldName": "DamagePercentage",
+                "isEditable": true,
+                "label": "Percentage Damaged",
+                "visible": true
+              },
+              {
+                "fieldName": "DateInspected",
+                "isEditable": true,
+                "label": "Date Inspected",
+                "visible": true
+              },
+              {
+                "fieldName": "InspectedBy",
+                "isEditable": true,
+                "label": "Inspected By",
+                "visible": true
+              },
+              {
+                "fieldName": "Owner",
+                "isEditable": true,
+                "label": "Farmer",
+                "visible": true
+              },
+              {
+                "fieldName": "Comments",
+                "isEditable": true,
+                "label": "Comments",
+                "visible": true
+              },
+              {
+                "fieldName": "CropID",
+                "isEditable": true,
+                "label": "Crop ID",
+                "visible": true
+              },
+              {
+                "fieldName": "LandID",
+                "isEditable": true,
+                "label": "Land ID",
+                "visible": true
+              },
+              {
+                "fieldName": "Shape__Area",
+                "isEditable": false,
+                "label": "Shape__Area",
+                "visible": true
+              },
+              {
+                "fieldName": "Shape__Length",
+                "isEditable": false,
+                "label": "Shape__Length",
+                "visible": true
+              }
+            ],
+            "type": "fields"
+          }
+        ],
+        "title": "{Shape_Length}"
+      },
+      "showLegend": true,
+      "title": "Crops",
+      "url": "https://services1.arcgis.com/iKsbAcqgVYmhKSqt/arcgis/rest/services/blah_WFL1/FeatureServer/2",
+      "visibility": true
+    },
+    {
+      "id": "6cdf82d391aa4a98b10c56ad8c410abe",
+      "itemId": "81ecc4d2f7424acab6e5113d21fa7f4d",
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "field1": "Type",
+            "type": "uniqueValue",
+            "uniqueValueInfos": [
+              {
+                "label": "Other",
+                "symbol": {
+                  "color": [
+                    253,
+                    127,
+                    111,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.75
+                  },
+                  "style": "esriSFSSolid",
+                  "type": "esriSFS"
+                },
+                "value": "OTHER"
+              },
+              {
+                "label": "Rock",
+                "symbol": {
+                  "color": [
+                    214,
+                    214,
+                    214,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.75
+                  },
+                  "style": "esriSFSSolid",
+                  "type": "esriSFS"
+                },
+                "value": "Rock"
+              },
+              {
+                "label": "Water",
+                "symbol": {
+                  "color": [
+                    190,
+                    232,
+                    255,
+                    255
+                  ],
+                  "outline": {
+                    "color": [
+                      153,
+                      153,
+                      153,
+                      64
+                    ],
+                    "style": "esriSLSSolid",
+                    "type": "esriSLS",
+                    "width": 0.75
+                  },
+                  "style": "esriSFSSolid",
+                  "type": "esriSFS"
+                },
+                "value": "WATER"
+              }
+            ]
+          }
+        },
+        "elevationInfo": {
+          "featureExpression": {
+            "value": 0
+          },
+          "mode": "relativeToGround"
+        },
+        "geometryType": "esriGeometryPolygon",
+        "objectIdField": "OBJECTID",
+        "templates": [
+          {
+            "drawingTool": "esriFeatureEditToolPolygon",
+            "name": "Ineligible Land",
+            "prototype": {
+              "attributes": {
+                "DateCreated": -2209161600000,
+                "DateModified": -2209161600000
+              }
+            }
+          }
+        ]
+      },
+      "layerType": "ArcGISFeatureLayer",
+      "opacity": 0.76,
+      "title": "Ineligible Land",
+      "url": "https://services1.arcgis.com/iKsbAcqgVYmhKSqt/arcgis/rest/services/blah_WFL1/FeatureServer/3",
+      "visibility": true
+    },
+    {
+      "id": "3d4ef70fba394dcfa12fa2837c1e383e",
+      "itemId": "81ecc4d2f7424acab6e5113d21fa7f4d",
+      "layerDefinition": {
+        "drawingInfo": {
+          "renderer": {
+            "symbol": {
+              "angle": 0,
+              "color": [
+                76,
+                230,
+                0,
+                255
+              ],
+              "outline": {
+                "color": [
+                  112,
+                  168,
+                  0,
+                  255
+                ],
+                "style": "esriSLSSolid",
+                "type": "esriSLS",
+                "width": 0.7
+              },
+              "size": 4,
+              "style": "esriSMSCircle",
+              "type": "esriSMS",
+              "xoffset": 0,
+              "yoffset": 0
+            },
+            "type": "simple"
+          },
+          "scaleSymbols": true
+        },
+        "elevationInfo": {
+          "featureExpression": {
+            "value": 0
+          },
+          "mode": "relativeToGround"
+        },
+        "geometryType": "esriGeometryPoint",
+        "objectIdField": "OBJECTID",
+        "templates": [
+          {
+            "drawingTool": "esriFeatureEditToolPoint",
+            "name": "Trees",
+            "prototype": {
+              "attributes": {}
+            }
+          }
+        ]
+      },
+      "layerType": "ArcGISFeatureLayer",
+      "opacity": 1,
+      "popupInfo": {
+        "expressionInfos": [],
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "isEditable": false,
+            "label": "OBJECTID",
+            "visible": true
+          },
+          {
+            "fieldName": "Owner",
+            "isEditable": true,
+            "label": "Owner",
+            "visible": true
+          },
+          {
+            "fieldName": "Type",
+            "isEditable": true,
+            "label": "Type",
+            "visible": true
+          },
+          {
+            "fieldName": "Reference",
+            "isEditable": true,
+            "label": "Reference",
+            "visible": true
+          },
+          {
+            "fieldName": "Comments",
+            "isEditable": true,
+            "label": "Comments",
+            "visible": true
+          },
+          {
+            "fieldName": "GlobalID",
+            "isEditable": false,
+            "label": "GlobalID",
+            "visible": true
+          },
+          {
+            "fieldName": "WTHG",
+            "isEditable": true,
+            "label": "Are you applying for the Woodland Tree Health Grant?",
+            "visible": true
+          },
+          {
+            "fieldName": "PlanType",
+            "isEditable": true,
+            "label": "Which play type are you applying for?",
+            "visible": true
+          },
+          {
+            "fieldName": "CapitalItems",
+            "isEditable": true,
+            "label": "Choose the Capital Item that is applicable",
+            "visible": true
+          },
+          {
+            "fieldName": "PayRate",
+            "isEditable": true,
+            "label": "Pay Rate",
+            "visible": true
+          }
+        ],
+        "mediaInfos": [],
+        "popupElements": [
+          {
+            "fieldInfos": [
+              {
+                "fieldName": "OBJECTID",
+                "isEditable": false,
+                "label": "OBJECTID",
+                "visible": true
+              },
+              {
+                "fieldName": "Owner",
+                "isEditable": true,
+                "label": "Owner",
+                "visible": true
+              },
+              {
+                "fieldName": "Type",
+                "isEditable": true,
+                "label": "Type",
+                "visible": true
+              },
+              {
+                "fieldName": "Reference",
+                "isEditable": true,
+                "label": "Reference",
+                "visible": true
+              },
+              {
+                "fieldName": "Comments",
+                "isEditable": true,
+                "label": "Comments",
+                "visible": true
+              },
+              {
+                "fieldName": "GlobalID",
+                "isEditable": false,
+                "label": "GlobalID",
+                "visible": true
+              },
+              {
+                "fieldName": "WTHG",
+                "isEditable": true,
+                "label": "Are you applying for the Woodland Tree Health Grant?",
+                "visible": true
+              },
+              {
+                "fieldName": "PlanType",
+                "isEditable": true,
+                "label": "Which play type are you applying for?",
+                "visible": true
+              },
+              {
+                "fieldName": "CapitalItems",
+                "isEditable": true,
+                "label": "Choose the Capital Item that is applicable",
+                "visible": true
+              },
+              {
+                "fieldName": "PayRate",
+                "isEditable": true,
+                "label": "Pay Rate",
+                "visible": true
+              }
+            ],
+            "type": "fields"
+          }
+        ],
+        "title": "{Owner}"
+      },
+      "showLegend": true,
+      "title": "Trees",
+      "url": "https://services1.arcgis.com/iKsbAcqgVYmhKSqt/arcgis/rest/services/blah_WFL1/FeatureServer/4",
+      "visibility": true
+    }
+  ],
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "tables": [],
+  "version": "2.15"
+}

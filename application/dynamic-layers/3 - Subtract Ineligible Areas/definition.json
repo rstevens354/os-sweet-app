@@ -1,0 +1,66 @@
+{
+  "availableoffline": true,
+  "definition": {
+    "chart": {
+      "inputs": {
+        "label": "bad",
+        "message_style": "",
+        "renderer": {
+          "renderer": {
+            "description": "",
+            "label": "",
+            "rotationExpression": "",
+            "rotationType": "",
+            "symbol": {
+              "color": [
+                196,
+                65,
+                65,
+                102
+              ],
+              "outline": {
+                "color": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "style": "esriSLSSolid",
+                "width": 1
+              },
+              "style": "esriSFSSolid",
+              "type": "esriSFS"
+            },
+            "type": "simple"
+          },
+          "selectedtype": "blue_small_dot",
+          "templates": null,
+          "type": "esriGeometryPoint",
+          "typeIdField": "",
+          "types": null
+        }
+      },
+      "type_of_chart": ""
+    },
+    "description": "",
+    "execution": "oncommand",
+    "icon": "",
+    "style": "",
+    "tablefields": null
+  },
+  "id": "5437377f-e46c-2218-9fd3-082633b66ff9",
+  "nodata": {
+    "display": "hidepanel",
+    "message": ""
+  },
+  "title": "Subtract Ineligible Areas",
+  "type": "layer",
+  "watchLayers": [
+    {
+      "id": "6cdf82d391aa4a98b10c56ad8c410abe",
+      "source": "webmap",
+      "title": "Ineligible Land",
+      "type": "layer"
+    }
+  ]
+}

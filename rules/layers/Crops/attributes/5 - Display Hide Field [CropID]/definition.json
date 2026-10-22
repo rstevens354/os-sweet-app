@@ -1,0 +1,7 @@
+{
+  "field": "CropID",
+  "name": "Display Hide Field [CropID]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "hidefield"
+}

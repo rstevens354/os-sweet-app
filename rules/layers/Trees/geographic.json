@@ -1,0 +1,10 @@
+{
+  "allow_holes": false,
+  "allow_multi_part": false,
+  "allow_self_intersect": false,
+  "allow_self_overlap": false,
+  "allow_self_touch": true,
+  "smallest_part": 0.01,
+  "use_subtype_topology": false,
+  "zalignment": "anyz"
+}

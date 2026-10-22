@@ -1,0 +1,7 @@
+{
+  "combination": "Shift+f9",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "open-panel-plans",
+  "systemaction": "open-panel-plans"
+}

@@ -1,0 +1,509 @@
+{
+  "advancedEditingCapabilities": {
+    "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+    "supportedSqlFormatsInCalculate": [
+      "standard"
+    ],
+    "supportsApplyEditsbyUploadID": true,
+    "supportsAsyncApplyEdits": true,
+    "supportsMaxTranslations": 10,
+    "supportsReturnEditResults": true,
+    "supportsTranslation": false
+  },
+  "advancedQueryAnalyticCapabilities": {
+    "supportsAsync": true,
+    "supportsLinearRegression": true,
+    "supportsPercentileAnalytic": true,
+    "supportsTrendlineRegression": true
+  },
+  "advancedQueryCapabilities": {
+    "fullTextSearchCapabilities": {
+      "supportsAccentSensitivity": true,
+      "supportsOperator": true,
+      "supportsSearchOperator": true,
+      "supportsStopWords": true
+    },
+    "supportedLodTypes": [
+      "geohash"
+    ],
+    "supportedOperationsWithCacheHint": [
+      "query",
+      "queryTopFilter",
+      "queryAnalytics",
+      "queryAttachments",
+      "queryRelated",
+      "queryBins",
+      "queryPivot"
+    ],
+    "supportedSpatialAggregationStatistics": [
+      "EnvelopeAggregate",
+      "CentroidAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsAdvancedQueryRelated": true,
+    "supportsAggIds": true,
+    "supportsApproxPercentileStatistics": true,
+    "supportsCountDistinct": true,
+    "supportsCurrentUserQueries": true,
+    "supportsDefaultSR": true,
+    "supportsDisjointSpatialRel": true,
+    "supportsDistinct": true,
+    "supportsFullTextSearch": true,
+    "supportsHavingClause": true,
+    "supportsISODOW": true,
+    "supportsISOWeek": true,
+    "supportsLod": true,
+    "supportsMaxRecordCountFactor": true,
+    "supportsOrderBy": true,
+    "supportsOutDistance": true,
+    "supportsOutFieldSQLExpression": true,
+    "supportsPagination": true,
+    "supportsPaginationOnAggregatedQueries": true,
+    "supportsPercentileStatistics": true,
+    "supportsQueryAnalytic": true,
+    "supportsQueryBins": true,
+    "supportsQueryPivot": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsQueryWithCacheHint": true,
+    "supportsQueryWithCollation": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsQueryWithDistance": true,
+    "supportsQueryWithLodSR": false,
+    "supportsQueryWithResultType": true,
+    "supportsReturningGeometryCentroid": false,
+    "supportsReturningGeometryEnvelope": false,
+    "supportsReturningQueryExtent": true,
+    "supportsSpatialAggregationStatistics": true,
+    "supportsSqlExpression": true,
+    "supportsStatistics": true,
+    "supportsTimeRelation": true,
+    "supportsTopFeaturesQuery": true,
+    "supportsTranslations": false
+  },
+  "allowGeometryUpdates": true,
+  "capabilities": "Create,Delete,Query,Update,Editing",
+  "collation": {
+    "accentSensitive": true,
+    "caseSensitive": false,
+    "locale": "neutral"
+  },
+  "copyrightText": "",
+  "currentVersion": 12,
+  "dateFieldsTimeReference": {
+    "respectsDaylightSaving": false,
+    "timeZone": "UTC",
+    "timeZoneIANA": "Etc/UTC"
+  },
+  "defaultVisibility": true,
+  "description": "Trees",
+  "displayField": "Owner",
+  "drawingInfo": {
+    "labelingInfo": null,
+    "renderer": {
+      "symbol": {
+        "angle": 0,
+        "color": [
+          76,
+          230,
+          0,
+          255
+        ],
+        "outline": {
+          "color": [
+            112,
+            168,
+            0,
+            255
+          ],
+          "width": 0.7
+        },
+        "size": 4,
+        "style": "esriSMSCircle",
+        "type": "esriSMS",
+        "xoffset": 0,
+        "yoffset": 0
+      },
+      "type": "simple"
+    },
+    "scaleSymbols": true,
+    "transparency": 0
+  },
+  "editingInfo": {
+    "dataLastEditDate": 1783070018676,
+    "lastEditDate": 1783070018726,
+    "schemaLastEditDate": 1783070018676
+  },
+  "enableNullGeometry": false,
+  "extent": {
+    "spatialReference": {
+      "latestWkid": 3857,
+      "wkid": 102100
+    },
+    "xmax": 20037507.84278825,
+    "xmin": -20037507.84278825,
+    "ymax": 30240971.45838615,
+    "ymin": -30240971.45838615
+  },
+  "fields": [
+    {
+      "alias": "OBJECTID",
+      "defaultValue": null,
+      "domain": null,
+      "editable": false,
+      "name": "OBJECTID",
+      "nullable": false,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeOID"
+    },
+    {
+      "alias": "Owner",
+      "defaultValue": null,
+      "domain": null,
+      "editable": true,
+      "length": 12,
+      "name": "Owner",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "Type",
+      "defaultValue": null,
+      "domain": {
+        "codedValues": [
+          {
+            "code": "in-field",
+            "name": "in-field"
+          },
+          {
+            "code": "mature boundary",
+            "name": "mature boundary"
+          }
+        ],
+        "name": "tree_type",
+        "type": "codedValue"
+      },
+      "editable": true,
+      "length": 15,
+      "name": "Type",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "Reference",
+      "defaultValue": null,
+      "domain": null,
+      "editable": true,
+      "length": 12,
+      "name": "Reference",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "Comments",
+      "defaultValue": null,
+      "domain": null,
+      "editable": true,
+      "length": 12,
+      "name": "Comments",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "GlobalID",
+      "defaultValue": null,
+      "domain": null,
+      "editable": false,
+      "length": 38,
+      "name": "GlobalID",
+      "nullable": false,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeGlobalID"
+    },
+    {
+      "alias": "Are you applying for the Woodland Tree Health Grant?",
+      "defaultValue": null,
+      "domain": {
+        "codedValues": [
+          {
+            "code": "Y",
+            "name": "Yes"
+          },
+          {
+            "code": "N",
+            "name": "No"
+          }
+        ],
+        "name": "YesNo",
+        "type": "codedValue"
+      },
+      "editable": true,
+      "length": 255,
+      "name": "WTHG",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "Which play type are you applying for?",
+      "defaultValue": null,
+      "domain": {
+        "codedValues": [
+          {
+            "code": "WTH",
+            "name": "Woodland Tree Health"
+          },
+          {
+            "code": "WTR",
+            "name": "Woodland Tree Health Restoration"
+          }
+        ],
+        "name": "TypeofPlan",
+        "type": "codedValue"
+      },
+      "editable": true,
+      "length": 255,
+      "name": "PlanType",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "Choose the Capital Item that is applicable",
+      "defaultValue": null,
+      "domain": {
+        "codedValues": [
+          {
+            "code": "SB1",
+            "name": "Felling diseased trees"
+          },
+          {
+            "code": "SB6",
+            "name": "Rhododendron control"
+          },
+          {
+            "code": "TE4",
+            "name": "Tree planting"
+          },
+          {
+            "code": "TE5",
+            "name": "Individual tree shelter"
+          },
+          {
+            "code": "FG1",
+            "name": "Fencing"
+          },
+          {
+            "code": "FG2",
+            "name": "Sheep netting"
+          },
+          {
+            "code": "FG4",
+            "name": "Rabbit fencing supplement"
+          },
+          {
+            "code": "FG5",
+            "name": "Fencing supplement - differcult site"
+          },
+          {
+            "code": "FG9",
+            "name": "Deer fencing"
+          },
+          {
+            "code": "FG12",
+            "name": "Wooden field gate or wooden wings"
+          },
+          {
+            "code": "FG14",
+            "name": "Badger gate"
+          },
+          {
+            "code": "FG15",
+            "name": "Water gates"
+          }
+        ],
+        "name": "CapitalItems",
+        "type": "codedValue"
+      },
+      "editable": true,
+      "length": 255,
+      "name": "CapitalItems",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeString"
+    },
+    {
+      "alias": "Pay Rate",
+      "defaultValue": null,
+      "domain": null,
+      "editable": true,
+      "name": "PayRate",
+      "nullable": true,
+      "sqlType": "sqlTypeOther",
+      "type": "esriFieldTypeDouble"
+    }
+  ],
+  "geometryType": "esriGeometryPoint",
+  "globalIdField": "GlobalID",
+  "guidFormat": "",
+  "hasAttachments": false,
+  "hasContingentValuesDefinition": false,
+  "hasM": false,
+  "hasStaticData": false,
+  "hasZ": false,
+  "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+  "id": 4,
+  "indexes": [
+    {
+      "description": "Shape Index",
+      "fields": "Shape",
+      "indexType": "Spatial",
+      "isAscending": true,
+      "isUnique": false,
+      "name": "blah_WFL1_TREES_Shape_sidx"
+    },
+    {
+      "description": "clustered, unique, primary key",
+      "fields": "OBJECTID",
+      "indexType": "Attribute",
+      "isAscending": true,
+      "isUnique": true,
+      "name": "PK__blah_WFL__F4B70D8544BF53F3"
+    }
+  ],
+  "infoInEstimates": [
+    "extent",
+    "count"
+  ],
+  "isDataVersioned": false,
+  "maxIdsCount": 400000,
+  "maxRecordCount": 2000,
+  "maxRecordCountFactor": 1,
+  "maxScale": 0,
+  "minScale": 0,
+  "name": "Trees",
+  "objectIdField": "OBJECTID",
+  "preferredTimeReference": null,
+  "queryBinsCapabilities": {
+    "supportedNormalizationTypes": [
+      "boxCox",
+      "field",
+      "inverse",
+      "log",
+      "naturalLog",
+      "percentOfTotal",
+      "squareRoot"
+    ],
+    "supportedStatisticTypes": [
+      "COUNT",
+      "SUM",
+      "AVG",
+      "VAR",
+      "STDDEV",
+      "MIN",
+      "MAX",
+      "PERCENTILE_CONT",
+      "PERCENTILE_DISC",
+      "APPROX_PERCENTILE_CONT",
+      "APPROX_PERCENTILE_DISC",
+      "CentroidAggregate",
+      "EnvelopeAggregate",
+      "ConvexHullAggregate"
+    ],
+    "supportsAsync": true,
+    "supportsAutoIntervalBin": true,
+    "supportsClassificationBin": true,
+    "supportsDateBin": true,
+    "supportsFirstDayOfWeek": true,
+    "supportsFixedBoundariesBin": true,
+    "supportsFixedIntervalBin": true,
+    "supportsNormalization": true,
+    "supportsReturnFullIntervalBin": true,
+    "supportsReturnStackValueRange": true,
+    "supportsSnapToData": true,
+    "supportsSplitBy": true,
+    "supportsStackBy": true
+  },
+  "relationships": [],
+  "serviceItemId": "81ecc4d2f7424acab6e5113d21fa7f4d",
+  "spatialReference": {
+    "latestWkid": 3857,
+    "wkid": 102100
+  },
+  "standardMaxRecordCount": 16000,
+  "standardMaxRecordCountNoGeometry": 32000,
+  "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+  "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+  "supportedContingentValuesFormats": "JSON, PBF",
+  "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+  "supportedConvertFileFormats": "JSON,PBF,Parquet",
+  "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel,parquet",
+  "supportedOperationsWithCollation": "query,addField,updateField",
+  "supportedQueryFormats": "JSON, geoJSON, PBF",
+  "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelDisjoint",
+    "esriSpatialRelRelation"
+  ],
+  "supportedSyncDataOptions": 260,
+  "supportsASyncCalculate": true,
+  "supportsAdvancedQueries": true,
+  "supportsAppend": true,
+  "supportsApplyEditsWithGlobalIds": true,
+  "supportsAttachmentsByUploadId": true,
+  "supportsAttachmentsResizing": true,
+  "supportsCalculate": true,
+  "supportsColumnStoreIndex": true,
+  "supportsContingentValues": true,
+  "supportsCoordinatesQuantization": true,
+  "supportsEditingContingentValues": true,
+  "supportsExceedsLimitStatistics": true,
+  "supportsFieldDescriptionProperty": true,
+  "supportsFieldGroups": true,
+  "supportsLayerOverrides": true,
+  "supportsQuantizationEditMode": true,
+  "supportsReturningQueryGeometry": true,
+  "supportsRollbackOnFailureParameter": true,
+  "supportsStatistics": true,
+  "supportsTilesAndBasicQueriesMode": true,
+  "supportsTruncate": true,
+  "supportsValidateSql": true,
+  "templates": [
+    {
+      "description": "",
+      "drawingTool": "esriFeatureEditToolPoint",
+      "name": "Trees",
+      "prototype": {
+        "attributes": {
+          "CapitalItems": null,
+          "Comments": "",
+          "Owner": "",
+          "PayRate": null,
+          "PlanType": null,
+          "Reference": "",
+          "Type": "",
+          "WTHG": null
+        }
+      }
+    }
+  ],
+  "tileMaxRecordCount": 8000,
+  "type": "Feature Layer",
+  "typeIdField": "",
+  "types": [],
+  "uniqueIdField": {
+    "isSystemMaintained": true,
+    "name": "OBJECTID"
+  },
+  "useStandardizedQueries": true
+}

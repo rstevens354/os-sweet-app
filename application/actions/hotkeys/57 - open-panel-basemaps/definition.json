@@ -1,0 +1,7 @@
+{
+  "combination": "Shift+f8",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "open-panel-basemaps",
+  "systemaction": "open-panel-basemaps"
+}

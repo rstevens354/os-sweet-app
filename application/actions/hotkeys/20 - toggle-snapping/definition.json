@@ -1,0 +1,7 @@
+{
+  "combination": "n",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "toggle-snapping",
+  "systemaction": "toggle-snapping"
+}

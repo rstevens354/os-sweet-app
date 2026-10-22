@@ -1,0 +1,7 @@
+{
+  "combination": "Ctrl+5",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "open-panel-find",
+  "systemaction": "open-panel-find"
+}

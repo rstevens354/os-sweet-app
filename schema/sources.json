@@ -1,0 +1,43 @@
+{
+  "sources": [
+    {
+      "is_group": false,
+      "is_map_service": false,
+      "is_theme": false,
+      "item_id": "81ecc4d2f7424acab6e5113d21fa7f4d",
+      "layers": [
+        {
+          "layer_id": "0",
+          "title": "Buildings",
+          "url": "https://services1.arcgis.com/iKsbAcqgVYmhKSqt/arcgis/rest/services/blah_WFL1/FeatureServer/0"
+        },
+        {
+          "layer_id": "1",
+          "title": "Land Use",
+          "url": "https://services1.arcgis.com/iKsbAcqgVYmhKSqt/arcgis/rest/services/blah_WFL1/FeatureServer/1"
+        },
+        {
+          "layer_id": "2",
+          "title": "Crops",
+          "url": "https://services1.arcgis.com/iKsbAcqgVYmhKSqt/arcgis/rest/services/blah_WFL1/FeatureServer/2"
+        },
+        {
+          "layer_id": "3",
+          "title": "Ineligible Land",
+          "url": "https://services1.arcgis.com/iKsbAcqgVYmhKSqt/arcgis/rest/services/blah_WFL1/FeatureServer/3"
+        },
+        {
+          "layer_id": "4",
+          "title": "Trees",
+          "url": "https://services1.arcgis.com/iKsbAcqgVYmhKSqt/arcgis/rest/services/blah_WFL1/FeatureServer/4"
+        }
+      ],
+      "title": "blah_WFL1",
+      "type": "featurelayer",
+      "url": "https://services1.arcgis.com/iKsbAcqgVYmhKSqt/arcgis/rest/services/blah_WFL1/FeatureServer"
+    }
+  ],
+  "webmap": {
+    "item_id": "73ac23887ed14b75b8aca3c377654261"
+  }
+}

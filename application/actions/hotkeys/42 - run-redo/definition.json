@@ -1,0 +1,7 @@
+{
+  "combination": "Ctrl+y",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "run-redo",
+  "systemaction": "run-redo"
+}

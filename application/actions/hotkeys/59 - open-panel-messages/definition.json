@@ -1,0 +1,7 @@
+{
+  "combination": "Ctrl+9",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "open-panel-messages",
+  "systemaction": "open-panel-messages"
+}

@@ -1,0 +1,7 @@
+{
+  "field": "InspectedBy",
+  "name": "Display as Portal User [InspectedBy]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "useridfield"
+}

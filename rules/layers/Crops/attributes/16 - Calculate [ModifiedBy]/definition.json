@@ -1,0 +1,7 @@
+{
+  "field": "ModifiedBy",
+  "name": "Calculate [ModifiedBy]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "fieldexpression"
+}

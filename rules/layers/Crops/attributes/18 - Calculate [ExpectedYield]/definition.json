@@ -1,0 +1,7 @@
+{
+  "field": "ExpectedYield",
+  "name": "Calculate [ExpectedYield]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "fieldexpression"
+}

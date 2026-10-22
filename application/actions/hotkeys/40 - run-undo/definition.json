@@ -1,0 +1,7 @@
+{
+  "combination": "Ctrl+z",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "run-undo",
+  "systemaction": "run-undo"
+}

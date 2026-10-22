@@ -1,0 +1,7 @@
+{
+  "combination": "Ctrl+8",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "open-panel-plans",
+  "systemaction": "open-panel-plans"
+}

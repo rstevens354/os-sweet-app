@@ -1,0 +1,7 @@
+{
+  "field": "CreatedBy",
+  "name": "Reaonly after Creation [CreatedBy]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "cannotchangeaftercreated"
+}

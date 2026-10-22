@@ -1,0 +1,7 @@
+{
+  "combination": "Shift+1",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "switch-tool-select",
+  "systemaction": "switch-tool-select"
+}

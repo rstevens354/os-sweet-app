@@ -1,0 +1,23 @@
+{
+  "availableoffline": true,
+  "definition": {
+    "chart": {
+      "inputs": {
+        "gauge_color": "rgba(255,0,0,0.5)"
+      }
+    },
+    "description": "",
+    "execution": "",
+    "icon": "",
+    "style": "",
+    "tablefields": null
+  },
+  "id": "09381650-f1dd-fc50-40de-e6f787744ece",
+  "nodata": {
+    "display": "displaymessage",
+    "message": "No Data"
+  },
+  "title": "Potential Income (£)",
+  "type": "gauge",
+  "watchLayers": []
+}

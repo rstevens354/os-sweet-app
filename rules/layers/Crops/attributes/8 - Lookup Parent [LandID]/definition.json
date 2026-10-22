@@ -1,0 +1,8 @@
+{
+  "field": "LandID",
+  "name": "Lookup Parent [LandID]",
+  "parent_field": "LandID",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "lookupparentfield"
+}

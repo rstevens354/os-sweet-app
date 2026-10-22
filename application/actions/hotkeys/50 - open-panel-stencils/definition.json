@@ -1,0 +1,7 @@
+{
+  "combination": "Ctrl+3",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "open-panel-stencils",
+  "systemaction": "open-panel-stencils"
+}

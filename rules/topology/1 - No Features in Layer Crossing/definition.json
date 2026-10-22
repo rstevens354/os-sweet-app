@@ -1,0 +1,21 @@
+{
+  "constraint_layers": [],
+  "crosses_allowed": "yes",
+  "ignoreInheritance": [],
+  "is_contiguous": false,
+  "layers": [
+    {
+      "id": "a21c10f22cd14f9c8c3c6c7709b36df5",
+      "source": "webmap",
+      "subtype_code": null,
+      "title": "Land Use",
+      "type": "layer"
+    }
+  ],
+  "name": "No Features in Layer Crossing",
+  "overlaps_allowed": "no",
+  "purpose": "",
+  "related": "no",
+  "subtype_constraint_layers": [],
+  "touches_allowed": "yes"
+}

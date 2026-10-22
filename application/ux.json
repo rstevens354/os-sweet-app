@@ -1,0 +1,17 @@
+{
+  "panel_order": [],
+  "remove_ui_components": [
+    "panel.basemaps",
+    "panel.plans",
+    "panel.layers",
+    "panel.find",
+    "command.lasso-select",
+    "command.selectmode-append",
+    "command.selectmode-unselect",
+    "command.selectmode-new",
+    "panel.messages",
+    "panel-versioning",
+    "command.choose",
+    "command.new"
+  ]
+}

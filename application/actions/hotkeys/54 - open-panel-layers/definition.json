@@ -1,0 +1,7 @@
+{
+  "combination": "Ctrl+6",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "open-panel-layers",
+  "systemaction": "open-panel-layers"
+}

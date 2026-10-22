@@ -1,0 +1,66 @@
+{
+  "availableoffline": true,
+  "definition": {
+    "chart": {
+      "inputs": {
+        "label": "bad",
+        "message_style": "",
+        "renderer": {
+          "renderer": {
+            "description": "",
+            "label": "",
+            "rotationExpression": "",
+            "rotationType": "",
+            "symbol": {
+              "color": [
+                196,
+                65,
+                65,
+                102
+              ],
+              "outline": {
+                "color": [
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "style": "esriSLSSolid",
+                "width": 1
+              },
+              "style": "esriSFSSolid",
+              "type": "esriSFS"
+            },
+            "type": "simple"
+          },
+          "selectedtype": "blue_small_dot",
+          "templates": null,
+          "type": "esriGeometryPoint",
+          "typeIdField": "",
+          "types": null
+        }
+      },
+      "type_of_chart": ""
+    },
+    "description": "",
+    "execution": "oncommand",
+    "icon": "",
+    "style": "",
+    "tablefields": null
+  },
+  "id": "e95e45c7-0d18-6a2f-95c7-cc57cfc41613",
+  "nodata": {
+    "display": "hidepanel",
+    "message": ""
+  },
+  "title": "Adding Ineligible Feedback",
+  "type": "layer",
+  "watchLayers": [
+    {
+      "id": "6cdf82d391aa4a98b10c56ad8c410abe",
+      "source": "webmap",
+      "title": "Ineligible Land",
+      "type": "layer"
+    }
+  ]
+}

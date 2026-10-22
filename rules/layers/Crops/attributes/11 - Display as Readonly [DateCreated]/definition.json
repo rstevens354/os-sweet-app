@@ -1,0 +1,7 @@
+{
+  "field": "DateCreated",
+  "name": "Display as Readonly [DateCreated]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "readonly"
+}

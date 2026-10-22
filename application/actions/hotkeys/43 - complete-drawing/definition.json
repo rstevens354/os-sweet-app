@@ -1,0 +1,7 @@
+{
+  "combination": "enter",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "complete-drawing",
+  "systemaction": "complete-drawing"
+}

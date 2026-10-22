@@ -1,0 +1,7 @@
+{
+  "combination": "Ctrl+s",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "switch-tool-split",
+  "systemaction": "switch-tool-split"
+}

@@ -1,0 +1,7 @@
+{
+  "field": "Owner",
+  "name": "Display as Portal User [Owner]",
+  "resetToDefault": false,
+  "subtypeCode": null,
+  "type": "useridfield"
+}

@@ -1,0 +1,7 @@
+{
+  "combination": "Ctrl+2",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "open-panel-attributes",
+  "systemaction": "open-panel-attributes"
+}

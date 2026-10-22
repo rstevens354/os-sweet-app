@@ -1,0 +1,7 @@
+{
+  "combination": "m",
+  "hotkeytype": "system",
+  "ishotkey": true,
+  "name": "toggle-curve-mode",
+  "systemaction": "toggle-curve-mode"
+}

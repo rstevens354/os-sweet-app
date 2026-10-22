@@ -1,0 +1,29 @@
+{
+  "constraint_layers": [
+    {
+      "id": "a21c10f22cd14f9c8c3c6c7709b36df5",
+      "source": "webmap",
+      "title": "Land Use",
+      "type": "layer"
+    }
+  ],
+  "crosses_allowed": "yes",
+  "fill_empty": "{\"layer\":\"397ec125fdcb45f990ddea12332bd95e\",\"name\":\"Barley\"}",
+  "ignoreInheritance": [],
+  "is_contiguous": true,
+  "layers": [
+    {
+      "id": "397ec125fdcb45f990ddea12332bd95e",
+      "source": "webmap",
+      "subtype_code": null,
+      "title": "Crops",
+      "type": "layer"
+    }
+  ],
+  "name": "Layer Covered",
+  "overlaps_allowed": "no",
+  "purpose": "",
+  "related": "no",
+  "subtype_constraint_layers": [],
+  "touches_allowed": "yes"
+}
